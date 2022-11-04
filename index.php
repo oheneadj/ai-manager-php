@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -121,7 +124,7 @@
                   document.write(new Date().getFullYear());
                 </script>
                 Arnson Innovate. Developed with
-                <i class="mdi mdi-heart text-danger"></i> by Ohene Adjei
+                <i class="mdi mdi-fire text-danger"></i> by <a target="_blank" href="https://oheneadjei.com/">Ohene Adjei</a>
               </p>
             </div>
           </div>
