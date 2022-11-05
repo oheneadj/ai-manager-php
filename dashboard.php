@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Horizontal Topbar Dark | Minible - Admin & Dashboard Template</title>
+    <title>Dashboard - Overview | AI Training Manager</title>
     <!-- Head-->
     <?php require_once'./includes/head.php'; ?>
   </head>
@@ -30,14 +30,31 @@
                 <div
                   class="page-title-box d-flex align-items-center justify-content-between"
                 >
-                  <h4 class="mb-0">Dashbaord</h4>
+                  <h4 class="mb-0">Welcome, Ohene</h4>
 
                   <div class="page-title-right">
                     <ol class="breadcrumb m-0">
-                      <li class="breadcrumb-item">
-                        <a href="javascript: void(0);">Horizontal</a>
+                      <li class=" mx-3">
+                      <a
+                            href="javascript: void(0);"
+                            class="btn btn-primary waves-effect waves-light"
+                            >Add New Student <i class="mdi mdi-account-plus"></i></a
+                          >
                       </li>
-                      <li class="breadcrumb-item active">Topbar Dark</li>
+                      <li class=" mx-3">
+                      <a
+                            href="javascript: void(0);"
+                            class="btn btn-success waves-effect waves-light"
+                            >Add New Session <i class="mdi mdi-alarm-multiple"></i></a
+                          >
+                      </li>
+                      <li class="">
+                      <a
+                            href="javascript: void(0);"
+                            class="btn btn-warning waves-effect waves-light"
+                            >Add New Facilitator <i class="mdi mdi-human-male-female"></i></a
+                          >
+                      </li>
                     </ol>
                   </div>
                 </div>
@@ -57,9 +74,9 @@
                     </div>
                     <div>
                       <h4 class="mb-1 mt-1">
-                        $<span data-plugin="counterup">34,152</span>
+                        <span data-plugin="counterup">34,152</span>
                       </h4>
-                      <p class="text-muted mb-0">Total Revenue</p>
+                      <p class="text-muted mb-0">Total Students</p>
                     </div>
                     <p class="text-muted mt-3 mb-0">
                       <span class="text-success me-1"
@@ -85,7 +102,7 @@
                       <h4 class="mb-1 mt-1">
                         <span data-plugin="counterup">5,643</span>
                       </h4>
-                      <p class="text-muted mb-0">Orders</p>
+                      <p class="text-muted mb-0">Courses</p>
                     </div>
                     <p class="text-muted mt-3 mb-0">
                       <span class="text-danger me-1"
@@ -111,7 +128,7 @@
                       <h4 class="mb-1 mt-1">
                         <span data-plugin="counterup">45,254</span>
                       </h4>
-                      <p class="text-muted mb-0">Customers</p>
+                      <p class="text-muted mb-0">Active Sessions</p>
                     </div>
                     <p class="text-muted mt-3 mb-0">
                       <span class="text-danger me-1"
@@ -194,7 +211,7 @@
                         </div>
                       </div>
                     </div>
-                    <h4 class="card-title mb-4">Sales Analytics</h4>
+                    <h4 class="card-title mb-4">Registration Analytics</h4>
 
                     <div class="mt-1">
                       <ul class="list-inline main-chart mb-0">
@@ -202,7 +219,7 @@
                           class="list-inline-item chart-border-left me-0 border-0"
                         >
                           <h3 class="text-primary">
-                            $<span data-plugin="counterup">2,371</span
+                            GHc<span data-plugin="counterup">2,371</span
                             ><span
                               class="text-muted d-inline-block font-size-15 ms-3"
                               >Income</span
@@ -214,7 +231,7 @@
                             <span data-plugin="counterup">258</span
                             ><span
                               class="text-muted d-inline-block font-size-15 ms-3"
-                              >Sales</span
+                              >Registrations</span
                             >
                           </h3>
                         </li>
@@ -250,14 +267,14 @@
                     <div class="row align-items-center">
                       <div class="col-sm-8">
                         <p class="text-white font-size-18">
-                          Enhance your <b>Campaign</b> for better outreach
+                         Register a new Student
                           <i class="mdi mdi-arrow-right"></i>
                         </p>
                         <div class="mt-4">
                           <a
                             href="javascript: void(0);"
                             class="btn btn-success waves-effect waves-light"
-                            >Upgrade Account!</a
+                            >Register <i class="mdi mdi-arrow-right"></i></a
                           >
                         </div>
                       </div>
@@ -317,7 +334,7 @@
                       </div>
                     </div>
 
-                    <h4 class="card-title mb-4">Top Selling Products</h4>
+                    <h4 class="card-title mb-4">Most Registered Courses</h4>
 
                     <div class="row align-items-center g-0 mt-3">
                       <div class="col-sm-3">
@@ -485,7 +502,7 @@
                         </div>
                       </div>
                     </div>
-                    <h4 class="card-title mb-4">Top Users</h4>
+                    <h4 class="card-title mb-4">Active Sessions</h4>
 
                     <div data-simplebar style="max-height: 339px">
                       <div class="table-responsive">
@@ -503,15 +520,15 @@
                               </td>
                               <td>
                                 <h6 class="font-size-15 mb-1 fw-normal">
-                                  Glenn Holden
+                                  Ohene Adjei
                                 </h6>
                                 <p class="text-muted font-size-13 mb-0">
-                                  <i class="mdi mdi-map-marker"></i> Nevada
+                                  <i class="mdi mdi-map-marker"></i> Training Center
                                 </p>
                               </td>
                               <td>
                                 <span class="badge bg-soft-danger font-size-12"
-                                  >Cancel</span
+                                  >6 days left</span
                                 >
                               </td>
                               <td class="text-muted fw-semibold text-end">
@@ -519,7 +536,7 @@
                                   class="icon-xs icon me-2 text-success"
                                   data-feather="trending-up"
                                 ></i
-                                >$250.00
+                                >16 Students
                               </td>
                             </tr>
                             <tr>
@@ -532,15 +549,15 @@
                               </td>
                               <td>
                                 <h6 class="font-size-15 mb-1 fw-normal">
-                                  Lolita Hamill
+                                  Arnold Johnson
                                 </h6>
                                 <p class="text-muted font-size-13 mb-0">
-                                  <i class="mdi mdi-map-marker"></i> Texas
+                                  <i class="mdi mdi-map-marker"></i> Temma Com 6
                                 </p>
                               </td>
                               <td>
                                 <span class="badge bg-soft-success font-size-12"
-                                  >Success</span
+                                  >1 week left</span
                                 >
                               </td>
                               <td class="text-muted fw-semibold text-end">
@@ -548,7 +565,7 @@
                                   class="icon-xs icon me-2 text-danger"
                                   data-feather="trending-down"
                                 ></i
-                                >$110.00
+                                >120 Students
                               </td>
                             </tr>
                             <tr>
@@ -953,7 +970,7 @@
               <div class="col-lg-12">
                 <div class="card">
                   <div class="card-body">
-                    <h4 class="card-title mb-4">Latest Transaction</h4>
+                    <h4 class="card-title mb-4">Latest Registrations</h4>
                     <div class="table-responsive">
                       <table class="table table-centered table-nowrap mb-0">
                         <thead class="table-light">
