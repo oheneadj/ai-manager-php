@@ -1,5 +1,5 @@
 <?php
-
+require_once('./libs/db.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,12 +67,13 @@
                 <div class="p-2 mt-4">
                   <form action="index.html">
                     <div class="mb-3">
-                      <label class="form-label" for="username">Username</label>
+                      <label class="form-label" for="username">Staff ID</label>
                       <input
+                        name="staff_id"
                         type="text"
                         class="form-control"
-                        id="username"
-                        placeholder="Enter Staff ID"
+                        id="staff_id"
+                        placeholder="Enter your Staff ID"
                       />
                     </div>
 
@@ -86,10 +87,11 @@
                         >Password</label
                       >
                       <input
+                        name="password"
                         type="password"
                         class="form-control"
-                        id="userpassword"
-                        placeholder="Enter password"
+                        id="password"
+                        placeholder="Enter your password"
                       />
                     </div>
 
