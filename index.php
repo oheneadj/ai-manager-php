@@ -41,17 +41,17 @@ require_once('./libs/db.php');
             <div class="text-center">
               <a href="#" class="mb-5 d-block auth-logo">
                 <img
-                  src="assets/images/logo-dark.png"
+                  src="assets/images/logo.png"
                   alt=""
-                  height="22"
+                  height="32"
                   class="logo logo-dark"
                 />
                 <img
-                  src="assets/images/logo-light.png"
+                  src="assets/images/logo.png"
                   alt=""
-                  height="22"
+                  height="32"
                   class="logo logo-light"
-                />
+                /><span class="text-dark"> AI Training Manager</span>
               </a>
             </div>
           </div>
@@ -62,10 +62,10 @@ require_once('./libs/db.php');
               <div class="card-body p-4">
                 <div class="text-center mt-2">
                   <h5 class="text-primary">Welcome Back !</h5>
-                  <p class="text-muted">Sign in to continue to AI Portal.</p>
+                  <p class="text-muted">Sign in to continue to AI Training Manager.</p>
                 </div>
                 <div class="p-2 mt-4">
-                  <form action="index.html">
+                  <form method="POST" action="./controllers/users/login.php">
                     <div class="mb-3">
                       <label class="form-label" for="username">Staff ID</label>
                       <input
@@ -76,7 +76,6 @@ require_once('./libs/db.php');
                         placeholder="Enter your Staff ID"
                       />
                     </div>
-
                     <div class="mb-3">
                       <div class="float-end">
                         <a href="auth-recoverpw.html" class="text-muted"

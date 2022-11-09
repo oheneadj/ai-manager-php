@@ -3,7 +3,7 @@
           <div class="d-flex">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-              <a href="index.html" class="logo logo-dark">
+              <a href="./dashboard.php" class="logo logo-dark">
                 <span class="logo-sm">
                   <img src="assets/images/logo.png" alt="" height="32" />
                 </span>
@@ -12,7 +12,7 @@
                 </span>
               </a>
 
-              <a href="index.html" class="logo logo-light">
+              <a href="./dashboard.php" class="logo logo-light">
                 <span class="logo-sm">
                   <img src="assets/images/logo.png" alt="" height="32" />
                 </span>
@@ -62,7 +62,7 @@
               >
                 <form class="p-3">
                   <div class="m-0">
-                    <div class="input-group">
+                    <div class="input-group border">
                       <input
                         type="text"
                         class="form-control"
@@ -80,67 +80,7 @@
               </div>
             </div>
 
-            <div class="dropdown d-inline-block language-switch">
-              <button
-                type="button"
-                class="btn header-item waves-effect"
-                data-bs-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                <img
-                  class=""
-                  src="assets/images/flags/us.jpg"
-                  alt="Header Language"
-                  height="16"
-                />
-              </button>
-              <div class="dropdown-menu dropdown-menu-end">
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <img
-                    src="assets/images/flags/spain.jpg"
-                    alt="user-image"
-                    class="me-1"
-                    height="12"
-                  />
-                  <span class="align-middle">Spanish</span>
-                </a>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <img
-                    src="assets/images/flags/germany.jpg"
-                    alt="user-image"
-                    class="me-1"
-                    height="12"
-                  />
-                  <span class="align-middle">German</span>
-                </a>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <img
-                    src="assets/images/flags/italy.jpg"
-                    alt="user-image"
-                    class="me-1"
-                    height="12"
-                  />
-                  <span class="align-middle">Italian</span>
-                </a>
-
-                <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                  <img
-                    src="assets/images/flags/russia.jpg"
-                    alt="user-image"
-                    class="me-1"
-                    height="12"
-                  />
-                  <span class="align-middle">Russian</span>
-                </a>
-              </div>
-            </div>
+           
 
             <div class="dropdown d-none d-lg-inline-block ms-1">
               <button
@@ -420,12 +360,6 @@
                   ></i>
                   <span class="align-middle">View Profile</span></a
                 >
-                <a class="dropdown-item" href="layouts-hori-topbar-dark.html#"
-                  ><i
-                    class="uil uil-wallet font-size-18 align-middle me-1 text-muted"
-                  ></i>
-                  <span class="align-middle">My Wallet</span></a
-                >
                 <a
                   class="dropdown-item d-block"
                   href="layouts-hori-topbar-dark.html#"
@@ -436,12 +370,6 @@
                   <span class="badge bg-soft-success rounded-pill mt-1 ms-2"
                     >03</span
                   ></a
-                >
-                <a class="dropdown-item" href="layouts-hori-topbar-dark.html#"
-                  ><i
-                    class="uil uil-lock-alt font-size-18 align-middle me-1 text-muted"
-                  ></i>
-                  <span class="align-middle">Lock screen</span></a
                 >
                 <a class="dropdown-item" href="layouts-hori-topbar-dark.html#"
                   ><i
@@ -468,7 +396,7 @@
               <div class="collapse navbar-collapse" id="topnav-menu-content">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="../dashboard.php">
                       <i class="uil-home-alt me-2"></i> Dashboard
                     </a>
                   </li>
@@ -480,7 +408,7 @@
                       id="topnav-uielement"
                       role="button"
                     >
-                      <i class="uil-flask me-2"></i>UI Elements
+                      <i class="uil-flask me-2"></i>Students
                       <div class="arrow-down"></div>
                     </a>
 
